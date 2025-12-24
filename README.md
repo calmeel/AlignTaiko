@@ -17,7 +17,7 @@ This is a tool for adjusting HitObjects coordinates for osu!taiko beatmaps.
 <br>
 
 ## Download
-[AlignTaiko v1.0.0 (EN)](https://github.com/calmeel/AlignTaiko/releases/tag/v1.0.0)
+[Download the latest Windows executable](https://github.com/calmeel/AlignTaiko/releases/tag/v1.2)
 
 ## Function
 - Aligns the coordinates of all HitObjects (excluding Sliders and Spinners) to `(256, 192)`
@@ -36,7 +36,7 @@ python AlignTaiko.py
 <br>
 
 ## ダウンロード
-- [AlignTaiko v1.0.1 (JP)](https://github.com/calmeel/AlignTaiko/releases/tag/v1.0.1)
+[Download the latest Windows executable](https://github.com/calmeel/AlignTaiko/releases/tag/v1.2)
 
 ## 機能
 - SliderやSpinerを除く、全てのHitObjectsの座標を `(256, 192)` に揃えます
