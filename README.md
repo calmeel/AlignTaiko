@@ -5,8 +5,14 @@
 全てのosu!taikoヒットオブジェクトを中心部に再配置します。  
 Align all hit objects in osu!taiko to the center.
 
+![AlignTaiko screenshot](screenshot.jpg)  
+<br>
 osu!taikoビートマップ用のHitObjects座標調整ツールです。  
 This is a tool for adjusting HitObjects coordinates for osu!taiko beatmaps.
+<br>
+<br>
+## Download (English ver.)
+[AlignTaiko v1.0.0 (EN)](https://github.com/calmeel/AlignTaiko/releases/tag/v1.0.0)
 
 ## Function
 - Aligns the coordinates of all HitObjects (excluding Sliders and Spinners) to `(256, 192)`
@@ -22,6 +28,9 @@ This is a tool for adjusting HitObjects coordinates for osu!taiko beatmaps.
 python AlignTaiko.py
 ```
 <br>
+
+## ダウンロード（日本語版）
+- [AlignTaiko v1.0.1 (JP)](https://github.com/calmeel/AlignTaiko/releases/tag/v1.0.1)
 
 ## 機能
 - SliderやSpinerを除く、全てのHitObjectsの座標を `(256, 192)` に揃えます
