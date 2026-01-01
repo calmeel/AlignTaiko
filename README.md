@@ -1,15 +1,14 @@
 # AlignTaiko
-<p align="left">
-  <img src="Images/ALIGN.ico" width="200">
-  <img src="Images/UserInterface.png" width="300">
-</p>
+<br>
+<p align="left"><img src="Images/Logo.png" width="600"></p>
+<br>
+<p align="left"><img src="Images/UserInterface.png" width="300"></p>
 <br>
 全てのosu!taikoヒットオブジェクトを中心部に再配置します。<br>
 Align all hitObjects in osu!taiko to the center.
 <br>
 <br>
-<p align="left"><img src="Images/screenshot.jpg" width="600">
-</p>
+<p align="left"><img src="Images/screenshot.jpg" width="600"></p>
 <br>
 osu!taikoビートマップ用のHitObjects座標調整ツールです。<br>
 This is a tool for adjusting HitObjects coordinates for osu!taiko beatmaps.
