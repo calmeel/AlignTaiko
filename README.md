@@ -5,13 +5,13 @@
 <p align="left"><img src="Images/UserInterface.png" width="300"></p>
 <br>
 全てのosu!taikoヒットオブジェクトを中心部に再配置します。<br>
-Align all hitObjects in osu!taiko to the center.
+Align all hit objects in osu!taiko to the center.
 <br>
 <br>
 <p align="left"><img src="Images/screenshot.jpg" width="600"></p>
 <br>
 osu!taikoビートマップ用のHitObjects座標調整ツールです。<br>
-This is a tool for adjusting HitObjects coordinates for osu!taiko beatmaps.
+This is a tool for adjusting hit objects coordinates for osu!taiko beatmaps.
 <br>
 <br>
 
@@ -19,7 +19,7 @@ This is a tool for adjusting HitObjects coordinates for osu!taiko beatmaps.
 [Download the latest Windows executable](https://github.com/calmeel/AlignTaiko/releases/tag/v1.2)
 
 ## Function
-- Aligns the coordinates of all HitObjects (excluding Sliders and Spinners) to `(256, 192)`
+- Aligns the coordinates of all hit objects (excluding Sliders and Spinners) to `(256, 192)`
 
 ## Usage (exe)
 1. Launch AlignTaiko.exe
