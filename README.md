@@ -2,7 +2,7 @@
 <br>
 <p align="left"><img src="Images/Logo.png" width="600"></p>
 <br>
-<p align="left"><img src="Images/UserInterface.png" width="300"></p>
+<p align="left"><img src="Images/UserInterface2.png" width="300"></p>
 <br>
 全てのosu!taikoヒットオブジェクトを中心部に再配置します。<br>
 Align all hit objects in osu!taiko to the center.
