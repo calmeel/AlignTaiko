@@ -61,7 +61,7 @@ namespace AlignTaiko.Gui.Properties {
         }
         
         /// <summary>
-        ///   AlignTaiko に類似しているローカライズされた文字列を検索します。
+        ///   osu!taiko alignment tool (AlignTaiko) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string AppTitle {
             get {
