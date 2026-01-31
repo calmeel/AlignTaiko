@@ -9,8 +9,6 @@ Align all hit objects in osu!taiko to the center.
 <br>
 <p align="left"><img src="Images/screenshot.jpg"></p>
 <br>
-<br>
-<br>
 
 [日本語版のREADMEはこちら](README_JP.md)
 

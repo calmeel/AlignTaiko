@@ -9,8 +9,6 @@ osu!taiko のすべてのヒットオブジェクトを中央に揃えます。
 <br>
 <p align="left"><img src="Images/screenshot.jpg"></p>
 <br>
-<br>
-<br>
 
 ## 📦 ダウンロード
 [最新の Windows 実行ファイルをダウンロード](https://github.com/calmeel/AlignTaiko/releases)
