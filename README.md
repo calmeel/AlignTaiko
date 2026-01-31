@@ -1,53 +1,91 @@
 # AlignTaiko
 <br>
-<p align="left"><img src="Images/Logo.png" width="600"></p>
+<p align="left"><img src="Images/Logo.png"></p>
 <br>
-<p align="left"><img src="Images/UserInterface2.png" width="300"></p>
+<p align="left"><img src="Images/UserInterface3.png"></p>
 <br>
-全てのosu!taikoヒットオブジェクトを中心部に再配置します。<br>
 Align all hit objects in osu!taiko to the center.
 <br>
 <br>
-<p align="left"><img src="Images/screenshot.jpg" width="600"></p>
+<p align="left"><img src="Images/screenshot.jpg"></p>
 <br>
-osu!taikoビートマップ用のHitObjects座標調整ツールです。<br>
-This is a tool for adjusting hit objects coordinates for osu!taiko beatmaps.
 <br>
 <br>
 
-## Download
-[Download the latest Windows executable](https://github.com/calmeel/AlignTaiko/releases/tag/v1.2)
+[日本語版のREADMEはこちら](README_JP.md)
 
-## Function
+## 📦 Download
+[Download the latest Windows executable](https://github.com/calmeel/AlignTaiko/releases)
+
+## ⚙️ Function
 - Aligns the coordinates of all hit objects (excluding Sliders and Spinners) to `(256, 192)`
 
-## Usage (exe)
-1. Launch AlignTaiko.exe
-2. Select the processing mode (single or batch)
-3. Select the beatmap text file (.osu)
-4. Choose the output folder
-5. A file with the same name will be output
+## 💡 Why is this tool useful?
 
-## Usage（Python）
-```bash
-python AlignTaiko.py
-```
-<br>
+- In **osu!lazer**, hit objects are always positioned at the center of the playfield.
+- In **osu!stable**, hit objects can be placed at arbitrary coordinates.
 
-## ダウンロード
-[Download the latest Windows executable](https://github.com/calmeel/AlignTaiko/releases/tag/v1.2)
+While many **Ranked maps** are visually aligned to the center,  
+**osu!stable does not provide a built-in way to realign hit objects in bulk**.
 
-## 機能
-- SliderやSpinerを除く、全てのHitObjectsの座標を `(256, 192)` に揃えます
+## ✨ Features
 
-## 使い方（exe）
-1. AlignTaiko.exe を起動
-2. 処理モードを選択（単体 or 一括）
-3. ビートマップのテキストファイル (.osu) を選択
-4. 出力フォルダを選択
-5. 同名ファイルが出力されます
+- **Single-file input**
+  - Process one `.osu` file at a time
+  - Clear and predictable behavior
 
-## 使い方（Python）
-```bash
-python AlignTaiko.py
-```
+- **Batch mode (non-recursive)**
+  - When enabled, processes all `.osu` files in the same directory as the selected file
+  - Subdirectories are intentionally ignored
+
+- **Safe overwrite with automatic backup**
+  - Original files are preserved using a temporary file + replace strategy
+  - Backup can be enabled or disabled in the UI
+
+## 🖥 System Requirements
+
+- Windows 10 / 11 (x64)
+- No .NET runtime installation required (self-contained build)
+
+## 🚀 Usage
+
+1. Launch `AlignTaiko.exe`
+2. Drag & drop a `.osu` file into the window  
+   *or* click the drop area to browse
+3. Choose **Single** or **Batch** mode
+4. Adjust options if needed (e.g. backup, language)
+5. Run the process
+
+In **Batch mode**, all `.osu` files in the same directory as the selected file will be processed.
+
+## ⚠️ Notes
+
+- Only hit objects of type **1** and **5** are modified  
+  (sliders and spinners are intentionally excluded)
+
+- Subdirectories are never processed
+
+- A **backup folder is created inside the directory containing the `.osu` files**  
+  Be sure to remove this folder before uploading maps.
+
+- **Slider adjustments must be done manually**  
+  This tool does not automatically modify slider shapes or control points.
+
+- This tool does not access the internet or external services
+
+## 🛠 Built With
+
+- C#
+- .NET 8
+- WinForms
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the `LICENSE` file for details.
+
+## 🔒 Privacy
+
+AlignTaiko does not collect any personal data.  
+All processing is done locally on your machine.
+
