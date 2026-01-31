@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AlignTaiko.Core/AlignTaiko.Core.csproj" Id="70da4e2a-56d8-4a70-bdb7-670175fd04a3" />
+  <Project Path="AlignTaiko.Gui/AlignTaiko.Gui.csproj" />
+</Solution>
