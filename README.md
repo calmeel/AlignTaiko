@@ -28,6 +28,8 @@ While many **Ranked maps** are visually aligned to the center,
 
 ## ✨ Features
 
+- **日本語対応**
+
 - **Single-file input**
   - Process one `.osu` file at a time
   - Clear and predictable behavior
